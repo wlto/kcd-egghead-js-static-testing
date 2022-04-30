@@ -1,9 +1,12 @@
-const username = 'wlto'
-typeof username === 'string'
+'use strict'
 
-if (!('serviceWorker' in navigator)) {
+const username = 'wlto'
+typeof username === 'strng'
+
+if (!'serviceWorker' in navigator) {
   // you have an old browser
 }
 
-const arr = [1, 2, 4]
-arr.forEach(x => console.log(x))
+const greeting = 'hello'
+console.log('${greeting} world!')
+[1, 2, 4].forEach(x => console.log(x))
