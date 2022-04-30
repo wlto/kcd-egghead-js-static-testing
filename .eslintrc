@@ -8,8 +8,8 @@
   },
   "rules" : {
     "strict": [
-      "error",
-      "never"
+      "error", // enable 'use strict' rule
+      "never"  // never requires this explicitly
     ],
     "valid-typeof": "error",
      "no-unsafe-negation": "error",
