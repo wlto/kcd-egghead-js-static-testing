@@ -1,18 +1,16 @@
 {
-  "parserOptions" : {
+  "parserOptions": {
     "ecmaVersion": 2019,
     "sourceType": "module",
     "ecmaFeatures": {
-      "jsx" : true
+      "jsx": true
     }
   },
-  "extends" : [
-    "eslint:recommended"
-  ],
-  "rules" : {
+  "extends": ["eslint:recommended", "eslint-config-prettier"],
+  "rules": {
     "strict": [
       "error", // enable 'use strict' rule
-      "never"  // never requires this explicitly
+      "never" // never requires this explicitly
     ]
   },
   "env": {
