@@ -3,6 +3,8 @@ function add(a: number, b: number): number {
 }
 
 console.log('something something ts something');
+console.log('something something ts something');
+console.log('something something ts something');
 
 interface User {
   name: {
