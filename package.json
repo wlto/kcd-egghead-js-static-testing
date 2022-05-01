@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src --extensions .js,.ts,.tsx --out-dir dist",
-    "lint": "eslint .",
+    "lint": "eslint --ext .js,.ts,.tsx .",
     "check-types": "tsc",
     "prettier": "prettier \"**/*.+(js|json|ts|tsx)\"",
     "format": "npm run prettier --write",
@@ -27,6 +27,8 @@
     "@babel/core": "^7.17.10",
     "@babel/preset-env": "^7.17.10",
     "@babel/preset-typescript": "^7.16.7",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.6.2",
