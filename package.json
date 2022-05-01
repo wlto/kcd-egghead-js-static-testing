@@ -40,9 +40,6 @@
   },
   "lint-staged": {
     "*.{js,ts,tsx}": "npm run validate",
-    "*.{js,json,ts,tsx}": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.{js,json,ts,tsx}": "prettier --write"
   }
 }
