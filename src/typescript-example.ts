@@ -2,6 +2,8 @@ function add(a: number, b: number): number {
   return a + b;
 }
 
+console.log('something something ts something');
+
 interface User {
   name: {
     first: string;
