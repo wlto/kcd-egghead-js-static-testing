@@ -1,5 +1,6 @@
 const username = 'wlto';
 typeof username === 'string';
+console.log('something something');
 
 if (!('serviceWorker' in navigator)) {
   // you have an old browser
